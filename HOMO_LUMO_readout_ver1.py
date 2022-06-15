@@ -98,7 +98,7 @@ def main():
     
     output = HOMO_LUMO_extraction(flist)
 
-    s_out = '化合物略称,E (A.U.),HOMO (A.U.),HOMO (eV),LUMO (A.U.),LUMO (eV)\n'
+    s_out = 'name,E (A.U.),HOMO (A.U.),HOMO (eV),LUMO (A.U.),LUMO (eV)\n'
     final = s_out + output
 
     print(final)
